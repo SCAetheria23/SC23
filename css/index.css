@@ -122,7 +122,15 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
+}
+.row4 {
+    text-align: center;
     margin-bottom: 50px;
+}
+.row4 img {
+    width: 200px;
+    height: 200px;
+    transition: all 0.5s ease-out;
 }
 .footer {
     display: flex;
