@@ -15,21 +15,21 @@
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
       AOS.init();
-      var countdownDate = new Date("February 5, 2023 00:00:00").getTime();
-      var x = setInterval(function(){
-        var now = new Date().getTime();
-        var distance = countdownDate - now;
+      // var countdownDate = new Date("February 5, 2023 00:00:00").getTime();
+      // var x = setInterval(function(){
+      //   var now = new Date().getTime();
+      //   var distance = countdownDate - now;
 
-        var days = Math.floor(distance / (1000 * 60 * 60 * 24));
-        var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-        var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
-        var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+      //   var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+      //   var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+      //   var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+      //   var seconds = Math.floor((distance % (1000 * 60)) / 1000);
 
-        document.getElementById("days").innerHTML = days;
-        document.getElementById("hours").innerHTML = hours;
-        document.getElementById("minute").innerHTML = minutes;
-        document.getElementById("second").innerHTML = seconds;
-      },1000);
+      //   document.getElementById("days").innerHTML = days;
+      //   document.getElementById("hours").innerHTML = hours;
+      //   document.getElementById("minute").innerHTML = minutes;
+      //   document.getElementById("second").innerHTML = seconds;
+      // },1000);
     </script>
 
     <div class="Navbar">
